@@ -22,6 +22,8 @@ from myyolo.views import *
 from django.conf import settings
 from django.conf.urls.static import static
 
+from Main.views import home
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name=''),
